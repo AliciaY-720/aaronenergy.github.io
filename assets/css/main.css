@@ -1603,6 +1603,7 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
+			width: 20%;
 		}
 
 		.image.centered {
@@ -1619,6 +1620,18 @@ input, select, textarea {
 			display: block;
 			width: 100%;
 			margin: 0 0 2em 0;
+		}
+		.image.logo {
+			display: block;
+			/* border: 5px solid rgb(138, 241, 124);
+			border-radius: 5%; */
+			margin-left: auto;
+			margin-right: auto;
+			width: 80%;
+			margin-bottom: 5%;
+			margin-top: 3%;
+
+			/* margin: 0 0 2em 0; */
 		}
 
 /* Button */
@@ -1975,6 +1988,7 @@ input, select, textarea {
 			margin-bottom: -3.25em;
 			margin-left: -12.5em;
 			padding-top: 0.5em;
+			
 		}
 
 			.wrapper .title:before {
@@ -2061,7 +2075,10 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
+		/* background-color: rgb(137, 240, 240); */
+		/* background-color: rgb(125, 235, 118); */
+		/* background-color: rgb(194, 223, 223); */
+		background: url("../../images/skybluebannerlogo.jpg") ;
 		background-size: cover;
 		padding: 0;
 	}
