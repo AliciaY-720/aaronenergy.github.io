@@ -1621,6 +1621,11 @@ input, select, textarea {
 			width: 100%;
 			margin: 0 0 2em 0;
 		}
+		/* .image.featured> img:hover {
+			width: 500px;
+			/* height: 200px; */
+			/* background-size: cover;
+		  } */ 
 		.image.logo {
 			display: block;
 			/* border: 5px solid rgb(138, 241, 124);
